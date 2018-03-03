@@ -1,4 +1,4 @@
-### prime check procedure
+# prime-check
 + Checks Prime Numbers in two methods and compares the two methods for inconsistency.
 + uses shell script to execute.
 ___
