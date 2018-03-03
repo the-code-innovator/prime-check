@@ -31,23 +31,23 @@ bool isPrime(int n){
 def isPrime(n):
 	if n == 1:
 		return True
-  elif n == 2:
-    return True
-  elif n == 3:
-    return True
-  elif n % 2 == 0:
-    return False
-  elif n % 3 == 0:
-    return False
+	elif n == 2:
+		return True
+	elif n == 3:
+		return True
+	elif n % 2 == 0:
+		return False
+	elif n % 3 == 0:
+		return False
 	else
-  	i = 5
-	  w = 2
-	  while i * i <= n:
-	    if n % i == 0:
-	      return False
-	  	i += w
-	  	w = 6 - w
-	  return True
+		i = 5
+		w = 2
+		while i * i <= n:
+			if n % i == 0:
+				return False
+			i += w
+			w = 6 - w
+		return True
 	return False
 ```
 ___
